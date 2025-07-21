@@ -13,4 +13,5 @@ let NAME3=[name3];
 console.log(NAME1);
 console.log(NAME2);
 console.log(NAME3);
+console.log(NAME1.concat(NAME2,NAME3));
 console.log(NAME1.concat(NAME2,NAME3).length);
