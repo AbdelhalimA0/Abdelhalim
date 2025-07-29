@@ -38,7 +38,7 @@ for (let i = 0; i < y; i++) {
   if (x * i < y) {
     console.log(x * i);
   } else {
-    break;
+    console.log('wrong numbers');
   }
 }
 
