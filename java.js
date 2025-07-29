@@ -31,8 +31,8 @@
 //   document.querySelector("#result").textContent = r;
 // }
 
-let x = 5;
-let y = 100;
+let x = prompt("the number for the multiplication table (x):");
+let y = prompt("upper limit (y):");
 
 for (let i = 0; i < y; i++) {
   if (x * i < y) {
@@ -42,6 +42,7 @@ for (let i = 0; i < y; i++) {
   }
 }
 
+let name = prompt("Enter your name:");
 let checkNameLength = name => name.length % 2 === 0 ? "even" : "odd";
-console.log(checkNameLength("Ahmed")); 
-console.log(checkNameLength("Abdelhalim"));  
+console.log(`length of the name "${name}" is: ${checkNameLength(name)}`);
+  
